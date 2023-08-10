@@ -1,4 +1,16 @@
-.title {
-	font-weight: bold;
-	font-size: 30px;
+.main_image {
+	position: relative;
+}
+.main_image_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	color: white;
+	text-decoration: none;
 }
